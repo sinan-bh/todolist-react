@@ -1,0 +1,53 @@
+body{
+    background-image: url(img/todolist.jpg);
+    background-size: 100%;
+}
+.container{
+    height: 100vh;
+}
+.top-div{
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-div h2{
+    color: antiquewhite;
+}
+form input{
+    width: 275px;
+    height: 30px;
+}
+button{
+    width: 13%;
+    background: transparent;
+    border: 3px solid rgb(236, 238, 233);
+}
+.list{
+    width: 400px;
+    
+
+}
+.list ul{
+    list-style: none;  
+}
+.list ul li{
+    display: flex;
+    flex-direction: row;
+}
+.list ul li div{
+    flex: 1;
+}
+.list ul li span{
+    padding-left: 60px;
+    cursor: pointer;
+    position: fixed;
+}
+.list ul li .edit{
+    margin-left: 220px;
+}
+.list ul li .del{
+    margin-left: 10px;
+    
+}
